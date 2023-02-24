@@ -10,6 +10,12 @@ body {
     color:#727272;
 }
 
+div {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+
 .firstbox {
     box-shadow:0 1px 1px 1px 1px #727272;
 }
