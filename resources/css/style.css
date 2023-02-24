@@ -22,7 +22,10 @@ img {
   display: flex;
   flex-direction: row;
   gap: 10px ;
+  align-items: center;
+    justify-content: center;
 }
+
 .firstbox {
     
     height:auto;
@@ -31,6 +34,14 @@ img {
     box-shadow: 5px 10px 18px #727272;
     flex-grow: 1;
     flex-basis: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    flex: 1 1 auto;
+    
 }
 
 .secondbox {
@@ -41,6 +52,9 @@ img {
     box-shadow: 5px 10px 18px #727272;
     flex-grow: 1;
     flex-basis: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .thirdbox {
@@ -51,9 +65,19 @@ img {
     box-shadow: 5px 10px 18px #727272;
     flex-grow: 1;
     flex-basis: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 
 .link--cv {
     font-size: 10px;
-    color:#727272;
+    color:#727272; 
 }
