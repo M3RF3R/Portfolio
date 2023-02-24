@@ -17,3 +17,8 @@ body {
     padding: 10px;
     box-shadow: 5px 10px 18px #727272;
 }
+
+.link--cv {
+    font-size: 10px;
+    color:#727272;
+}
