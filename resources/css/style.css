@@ -33,11 +33,10 @@ img {
 }
 
 .parent{
-  display: flex;
-  flex-direction: row;
+ 
   gap: 10px ;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  width: 100%;
 }
 
 .parent2{
@@ -61,13 +60,10 @@ img {
 
 .firstbox {
     
-    height:auto;
+    flex: 1;
     border: 1px solid white;
     padding: 20px;
     box-shadow: 5px 10px 18px #727272;
-    flex-grow: 1;
-    flex-basis: 0;
-    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -84,26 +80,20 @@ img {
 
 .secondbox {
     
-    height:auto;
+    flex: 1;
     border: 1px solid white;
     padding: 20px;
     box-shadow: 5px 10px 18px #727272;
-    flex-grow: 1;
-    flex-basis: 0;
-    position: relative;
     display: flex;
     flex-direction: column;
 }
 
 .thirdbox {
     
-    height:auto;
+    flex: 1;
     border: 1px solid white;
     padding: 20px;
     box-shadow: 5px 10px 18px #727272;
-    flex-grow: 1;
-    flex-basis: 0;
-    position: relative;
     display: flex;
     flex-direction: column;
 }
