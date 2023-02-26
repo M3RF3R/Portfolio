@@ -49,6 +49,7 @@ img {
     justify-content: center;
   }
 
+
 .avatar {
     
     border: 1px solid white;
@@ -71,10 +72,6 @@ img {
     
 }
 
-.image{
-   
-    
-}
 
 .text{
     
@@ -101,12 +98,6 @@ img {
     flex-direction: column;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
 
 .link--back {
     font-size: 10px;
@@ -115,4 +106,8 @@ img {
 .link--cv {
     
     color:#727272; 
+}
+
+.link--codecademy {
+    color:#727272;  
 }
