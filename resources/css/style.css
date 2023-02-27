@@ -69,7 +69,6 @@ img {
     display: flex;
     flex-direction: column;
     
-    
 }
 
 
@@ -111,3 +110,26 @@ img {
 .link--codecademy {
     color:#727272;  
 }
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+
+    body {
+       
+    padding: 0px
+    
+}
+
+    .parent{
+        flex-direction: column;
+        width: 100%;
+    }
+    .firstbox{
+        padding: 10;
+    }
+    .secondbox{
+        padding: 10;
+    }
+    .thirdbox{
+        padding: 10;
+    }
+  }
